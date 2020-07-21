@@ -4,7 +4,7 @@ A quick a dirty template for putting up a holding page while a site is offline, 
 
 ## Usage
 
-Design Tokens & Utility classes are generated using [Kubas](https://github.com/chrismademe/kubas), so you'll need that installed on your machine if you want to adjust any tokens.
+Design Tokens & Utility classes are generated using [Kubas](https://www.npmjs.com/package/kubas), so you'll need that installed on your machine if you want to adjust any tokens.
 
 ```bash
 npm install -g kubas
