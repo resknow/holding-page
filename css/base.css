@@ -1,0 +1,134 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul,
+ol {
+	padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+	color: var(--color-primary);
+	font-family: var(--font-base);
+	min-height: 100vh;
+	text-rendering: optimizeSpeed;
+	line-height: var(--leading-base, 1.5);
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+	list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Sensible defaults for SVG */
+svg {
+	fill: currentColor;
+	height: 1em;
+	width: 1em;
+}
+
+[hidden] {
+	display: none !important;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* Outdated Browser Notice */
+@supports (display: grid) {
+	.browser-message {
+		display: none;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+.h1,
+.h2,
+.h3,
+.h4 {
+	font-family: var(--font-heading, var(--font-base));
+	font-weight: var(--weight-bold, 700);
+	letter-spacing: var(--tracking-tight);
+	line-height: var(--leading-tight, 1.1);
+	margin: 0;
+}
+
+h1,
+.h1 {
+	font-size: var(--size-3xl);
+}
+
+h2,
+.h2 {
+	font-size: var(--size-2xl);
+}
+
+h3,
+.h3 {
+	font-size: var(--size-xl);
+}
+
+h4,
+.h4 {
+	font-size: var(--size-lg);
+}
+
+code,
+pre {
+	font-family: var(--font-mono, monospace);
+}

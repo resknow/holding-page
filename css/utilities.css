@@ -1,0 +1,43 @@
+.ml-1 {
+  margin-left: var(--space-1);
+}
+
+.ml-2 {
+  margin-left: var(--space-2);
+}
+
+.ml-3 {
+  margin-left: var(--space-3);
+}
+
+.ml-4 {
+  margin-left: var(--space-4);
+}
+
+.ml-6 {
+  margin-left: var(--space-6);
+}
+
+.ml-8 {
+  margin-left: var(--space-8);
+}
+
+.ml-10 {
+  margin-left: var(--space-10);
+}
+
+.ml-12 {
+  margin-left: var(--space-12);
+}
+
+.ml-16 {
+  margin-left: var(--space-16);
+}
+
+.ml-20 {
+  margin-left: var(--space-20);
+}
+
+.ml-px {
+  margin-left: var(--space-px);
+}

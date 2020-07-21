@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Site Name</title>
+		<link rel="stylesheet" href="css/tokens.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/utilities.css" />
+
+		<style>
+			.container {
+				display: flex;
+				height: 100vh;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				text-align: center;
+			}
+
+			.container > * + * {
+				margin-top: var(--space-4);
+			}
+
+			.phone-numbers {
+				display: flex;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<img src="/logo.png" alt="Site Name" />
+			<h1 class="h2">Website under construction</h1>
+			<div class="phone-numbers c-grey-50">
+				<p><strong class="c-brand">T: </strong> 01234 567 789</p>
+				<p><strong class="c-brand ml-6">M: </strong> 07123 456 789</p>
+			</div>
+		</div>
+	</body>
+</html>
